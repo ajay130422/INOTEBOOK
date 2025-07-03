@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(
     cors({
         
-        origin: "https://inotebook-eight-green.vercel.app/",
+        origin: "*",
         credentials: true
     })
 );
