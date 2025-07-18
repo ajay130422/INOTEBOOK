@@ -42,7 +42,7 @@ const Login = () => {
                 setError(error.response.data.message);
             }
             else{
-                setError("An Unexpexted error occured. Please try again");
+                setError("An Unexpexted error occured. Please try again after 50 seconds.");
             }
         }
     };
